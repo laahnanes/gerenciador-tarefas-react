@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 function Tasks(props) {
   const navigate = useNavigate();
 
+  // Linha aleatória sem sentido para testar o git revert
+  const nadaADemas = "só para testar";
+
   function onSeeDetailsClick(task) {
     const query = new URLSearchParams();
     query.set("title", task.title);
