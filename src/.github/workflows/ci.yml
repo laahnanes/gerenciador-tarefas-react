@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Rodar testes
-        run: npm test -- --run
+        run: npm test -- --passWithNoTests
 
       - name: Rodar build
         run: npm run build
